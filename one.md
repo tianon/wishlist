@@ -15,3 +15,4 @@
 - simple text box to search/filter pockets by name (or by sharing?)
 - transaction searching/filtering/sorting
 - mobile check deposit
+- (read-only?) API to list all pockets (inc. deleted?) and their amounts (+ transactions) for record-keeping
