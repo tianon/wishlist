@@ -12,3 +12,5 @@
 - more obvious per-pocket information (name) in "All Transactions" list
 - mail a check (website says "coming"!)
 - dark mode
+- simple text box to search/filter pockets by name (or by sharing?)
+- transaction searching/filtering/sorting
