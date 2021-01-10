@@ -1,6 +1,6 @@
 # [One](https://onefinance.com)
 
-- per-pocket virtual card (direct Privacy integration?)
+- per-pocket virtual card (direct Privacy integration?); https://twitter.com/tianon/status/1347445828638543872 + https://twitter.com/bthamilton/status/1347449056683982848
 - pocket list sorting
 - longer pocket names
 - pocket memo/note/description
