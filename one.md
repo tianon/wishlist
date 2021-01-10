@@ -14,3 +14,4 @@
 - dark mode
 - simple text box to search/filter pockets by name (or by sharing?)
 - transaction searching/filtering/sorting
+- mobile check deposit
