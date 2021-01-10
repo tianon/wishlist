@@ -2,3 +2,13 @@
 
 - per-pocket virtual card (direct Privacy integration?)
 - pocket list sorting
+- longer pocket names
+- pocket memo/note/description
+- button to add money to a pocket after it has activity
+- mobile (transaction) notifications
+- show pockets list faster (currently they all load very slowly and pop in one by one - maybe the pocket amount needs to load separately from the names? the page clearly knows how many there are ahead of time and saves the right amount of space)
+- "What should we call you?" (preferred name) separate from legal name
+- download statement / transaction log per-pocket
+- more obvious per-pocket information (name) in "All Transactions" list
+- mail a check (website says "coming"!)
+- dark mode
