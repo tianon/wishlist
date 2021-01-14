@@ -12,7 +12,7 @@
 - more obvious per-pocket information (name) in "All Transactions" list
 - mail a check (website says "coming"!)
 - dark mode
-- simple text box to search/filter pockets by name (or by sharing?)
+- simple text box to search/filter pockets by name (or by sharing?); everywhere (main dashboard, transfer screen, etc)
 - transaction searching/filtering/sorting
 - mobile check deposit
 - (read-only?) API to list all pockets (inc. deleted?) and their amounts (+ transactions) for record-keeping
