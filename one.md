@@ -16,3 +16,4 @@
 - transaction searching/filtering/sorting
 - mobile check deposit
 - (read-only?) API to list all pockets (inc. deleted?) and their amounts (+ transactions) for record-keeping
+- double-click prevention/protection (I made a large transfer, but my buggy mouse double-clicked and I ended up with two and no way to cancel either...)
