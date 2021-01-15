@@ -7,3 +7,5 @@
 - "fix match" on mobile
 - web interface that actually works OK on mobile?
 - more permanent custom transcoding settings
+- sync watched/unwatched status of the same media between collections / servers
+- explicit "watchlist" for tracking things I want to watch
