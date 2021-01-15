@@ -17,3 +17,4 @@
 - mobile check deposit
 - (read-only?) API to list all pockets (inc. deleted?) and their amounts (+ transactions) for record-keeping
 - double-click prevention/protection (I made a large transfer, but my buggy mouse double-clicked and I ended up with two and no way to cancel either...)
+- the ability to choose to *not* get a contactless/RFID physical card (simple chip+pin preferred)
