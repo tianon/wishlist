@@ -6,3 +6,4 @@
 - "show info" on mobile
 - "fix match" on mobile
 - web interface that actually works OK on mobile?
+- more permanent custom transcoding settings
