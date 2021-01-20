@@ -9,3 +9,4 @@
 - more permanent custom transcoding settings
 - sync watched/unwatched status of the same media between collections / servers
 - explicit "watchlist" for tracking things I want to watch
+- audiobooks support (essentially audio-only TV shows)
