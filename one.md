@@ -22,3 +22,4 @@
 - list special-case "Save" and "Spend" pockets first
 - create pocket in one click (instead of explaining what pockets are every time I make one - I've got like 100 of the things now, I think I've got the idea)
 - bulk pocket create? (list of names, create them all)
+- delayed redirect to pocket after create (with a modal making me think I can exit and do other things before I'm hijacked); either redirect immediately or don't redirect - maybe give me a link instead so I can choose to go to the pocket I just created or not?
