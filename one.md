@@ -19,3 +19,4 @@
 - double-click prevention/protection (I made a large transfer, but my buggy mouse double-clicked and I ended up with two and no way to cancel either...)
 - the ability to choose to *not* get a contactless/RFID physical card (simple chip+pin preferred)
 - "early paycheck" that actually works?  (transactions in Simple posted much earlier, and even pending transactions in Chase show up quicker)
+- list special-case "Save" and "Spend" pockets first
