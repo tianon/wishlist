@@ -20,3 +20,5 @@
 - the ability to choose to *not* get a contactless/RFID physical card (simple chip+pin preferred)
 - "early paycheck" that actually works?  (transactions in Simple posted much earlier, and even pending transactions in Chase show up quicker)
 - list special-case "Save" and "Spend" pockets first
+- create pocket in one click (instead of explaining what pockets are every time I make one - I've got like 100 of the things now, I think I've got the idea)
+- bulk pocket create? (list of names, create them all)
