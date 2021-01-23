@@ -1,8 +1,12 @@
 # [One](https://onefinance.com)
 
-- per-pocket virtual card (direct Privacy integration?); https://twitter.com/tianon/status/1347445828638543872 + https://twitter.com/bthamilton/status/1347449056683982848 (https://help.onefinance.com/hc/en-us/articles/360060071534)
-- mail a check (https://help.onefinance.com/hc/en-us/articles/360060071534)
-- mobile check deposit (https://help.onefinance.com/hc/en-us/articles/360060071534)
+---
+
+"Planned" (https://help.onefinance.com/hc/en-us/articles/360060071534)
+
+- per-pocket virtual card (direct Privacy integration?); https://twitter.com/tianon/status/1347445828638543872 + https://twitter.com/bthamilton/status/1347449056683982848
+- mail a check
+- mobile check deposit
 
 ---
 
@@ -31,3 +35,7 @@
 - some way to share money with someone without sharing a pocket they have to then take it out of (perhaps a pocket that is my default "receive money" pocket similar to my "spend from" pocket which then my friends can send money in one direction to without having a weird shared pocket that they have to then transfer the money out of)
 - custom pocket colors (more means of differentiating pockets quickly)
 - drag and drop between pockets to quickly initiate a transfer
+
+(Sent to support as feedback, 2020-01-22.)
+
+---
