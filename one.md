@@ -26,3 +26,4 @@
 - bulk transfer schedule (think "paycheck just dropped; need to allocate bits of it to all the right pockets" - it'd be great to have a way to do several at once instead of one by one)
 - sharing pockets without a hanky link I have to send out-of-band (I'd love to add a "friend" who I can then invite to join my pockets without exchanging that link externally where it might get intercepted and have some unexpected joiners)
 - custom pocket colors (more means of differentiating pockets quickly)
+- drag and drop between pockets to quickly initiate a transfer
