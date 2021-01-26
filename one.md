@@ -39,3 +39,5 @@
 (Sent to support as feedback, 2020-01-22.)
 
 ---
+
+- (optionally?) combine to/from transactions in the "All Transactions" list ("$xx transferred from FOO to BAR" instead of two split transactions)
