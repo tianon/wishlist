@@ -41,3 +41,4 @@
 ---
 
 - (optionally?) combine to/from transactions in the "All Transactions" list ("$xx transferred from FOO to BAR" instead of two split transactions)
+- JSON format download of transaction history (much easier to sort through programmatically at Tax Time)
