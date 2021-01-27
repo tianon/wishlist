@@ -42,3 +42,5 @@
 
 - (optionally?) combine to/from transactions in the "All Transactions" list ("$xx transferred from FOO to BAR" instead of two split transactions)
 - JSON format download of transaction history (much easier to sort through programmatically at Tax Time)
+- ability to split the "save", "auto-save", and "spend" special pockets into sub-categories/pockets for organization
+- pocket groups/folders/categories would be really useful with lots
