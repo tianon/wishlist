@@ -44,3 +44,4 @@
 - JSON format download of transaction history (much easier to sort through programmatically at Tax Time)
 - ability to split the "save", "auto-save", and "spend" special pockets into sub-categories/pockets for organization
 - pocket groups/folders/categories would be really useful with lots
+- (update on faster transactions above) is it perhaps that One does not yet support "Same-Day ACH" and that it might come soon?  if that's the case, then what is "Early Paycheck" and why is it different?
