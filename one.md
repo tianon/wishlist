@@ -45,3 +45,4 @@
 - ability to split the "save", "auto-save", and "spend" special pockets into sub-categories/pockets for organization
 - pocket groups/folders/categories would be really useful with lots
 - (update on faster transactions above) is it perhaps that One does not yet support "Same-Day ACH" and that it might come soon?  if that's the case, then what is "Early Paycheck" and why is it different?
+- some way to swap "from" and "to" on the transfer screen (clicking the arrow between to reverse the direction?)
