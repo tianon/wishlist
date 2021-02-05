@@ -48,3 +48,5 @@
 - some way to swap "from" and "to" on the transfer screen (clicking the arrow between to reverse the direction?)
 - "contact support about this transaction" (as a link/button directly on a single transaction)
 - "contact support" directly in the app (not via some hanky chat bot in a browser)
+
+(Sent to support as feedback, 2020-02-05.)
