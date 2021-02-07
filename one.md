@@ -50,3 +50,7 @@
 - "contact support" directly in the app (not via some hanky chat bot in a browser)
 
 (Sent to support as feedback, 2020-02-05.)
+
+---
+
+- ability to add notes to a transaction after the fact (esp. when it wasn't initiated inside One)
