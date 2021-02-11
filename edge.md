@@ -5,3 +5,4 @@
 - "open" a collection and have it stay in-sync with the open window (esp. on two machines at once)
 - some way to explicitly wake up tabs instead of implicitly (I often wake up tabs while clicking through windows trying to find the one I'm looking for)
 - some indication in the task manager of sleeping tabs (bonus points for showing the resource savings by having the tab be asleep)
+- some way to disable auto-update / auto-restart attempts (neither of which will *ever* work properly for the way I use Edge, and are extremely disruptive)
