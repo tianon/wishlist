@@ -55,3 +55,4 @@
 
 - ability to add notes to a transaction after the fact (esp. when it wasn't initiated inside One)
 - longer transaction notes than 100 characters (esp. for One2One/Pocket2Pocket transfers)
+- browser titlebar shows "Spend Pocket." no matter which pocket I click on (2021-02-17)
