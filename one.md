@@ -2,17 +2,17 @@
 
 ---
 
-"Planned" (https://help.onefinance.com/hc/en-us/articles/360060071534)
+"Planned" (https://www.onefinance.com/spring-summer-roadmap/, https://help.onefinance.com/hc/en-us/articles/360060071534)
 
-- per-pocket virtual card (direct Privacy integration?); https://twitter.com/tianon/status/1347445828638543872 + https://twitter.com/bthamilton/status/1347449056683982848
+- ~~per-pocket virtual card (direct Privacy integration?); https://twitter.com/tianon/status/1347445828638543872 + https://twitter.com/bthamilton/status/1347449056683982848~~
 - mail a check
-- mobile check deposit
+- ~~mobile check deposit~~
 
 ---
 
 - pocket list sorting (everywhere pockets end up getting listed; alphabetic, amount, asc, desc)
 - longer pocket names??
-- pocket memo/note/description
+- ~~pocket memo/note/description~~
 - ~~button to add money to a pocket (from the pocket details screen) even after it has activity~~ 🎉
 - mobile (transaction) notifications (I got a Direct Deposit notification, but it's the first/only I've gotten despite several transfers and many transactions)
 - show pockets list faster (currently they all load very slowly and pop in one by one - maybe the pocket amount needs to load separately from the names? the page clearly knows how many there are ahead of time and saves the right amount of space)
