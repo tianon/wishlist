@@ -58,3 +58,4 @@
 - browser titlebar shows "Spend Pocket." no matter which pocket I click on (2021-02-17)
 - show memo/notes (or the first bit, if it's long) on the transaction list
 - ability to rename "Linked Accounts" (or give them my own friendly name)
+- less of whatever the heck https://twitter.com/onefinancehq/status/1390014349188603905 is
