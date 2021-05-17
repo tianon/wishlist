@@ -57,3 +57,4 @@
 - longer transaction notes than 100 characters (esp. for One2One/Pocket2Pocket transfers)
 - browser titlebar shows "Spend Pocket." no matter which pocket I click on (2021-02-17)
 - show memo/notes (or the first bit, if it's long) on the transaction list
+- ability to rename "Linked Accounts" (or give them my own friendly name)
