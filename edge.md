@@ -11,3 +11,4 @@
 - some way to disable auto-update / auto-restart attempts (neither of which will *ever* work properly for the way I use Edge, and are extremely disruptive)
 - a setting to open things like "what's new" in a new window instead of a new tab in a random window on browser startup (also links from external applications)
 - use "BETA" / "DEV" version of the icon (shown on "About" page) for window icons so they're easy to differentiate when running multiple channels at the same time
+- ability to force a tab's "full screen" to be full screen within the tab instead of real full screen (exactly how it works when casting a tab, in fact)
