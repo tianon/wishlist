@@ -15,3 +15,4 @@
 - ability to cast a window (instead of "full desktop" or "single tab")
 - ability to cast a tab "naïvely" while ignoring any "cast" behavior the tab might have
 - ability to have the downloads "popover" menu be a bar on the bottom of the window again - the flyover menu is too far away from what I'm working on
+- an indicator of tabs which are currently inhibiting the screensaver, and a way to deny sites that privilege
