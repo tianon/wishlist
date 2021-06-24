@@ -16,7 +16,7 @@
 - ~~button to add money to a pocket (from the pocket details screen) even after it has activity~~ 🎉
 - better mobile (transaction) notifications (I get Spend and Direct Deposit notifications, but not notifications of other people transferring money in or out of shared pockets, which would be really handy)
 - show pockets list faster (currently they all load very slowly and pop in one by one - maybe the pocket amount needs to load separately from the names? the page clearly knows how many there are ahead of time and saves the right amount of space)
-- "What should we call you?" (preferred name) separate from legal name
+- ~~"What should we call you?" (preferred name) separate from legal name~~ https://www.onefinance.com/introducing-my-name/ 🎉
 - download statement / transaction log per-pocket (CSV would be great, PDF would be fine)
 - more obvious per-pocket information (name) in "All Transactions" list
 - dark mode
