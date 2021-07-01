@@ -60,3 +60,4 @@
 - ability to rename "Linked Accounts" (or give them my own friendly name)
 - less of whatever the heck https://twitter.com/onefinancehq/status/1390014349188603905 is
 - the ability to select/copy transaction amounts in the Android application (especially for pasting in transfers to refill pockets, for example)
+- a way to change the selected pocket for TO or FROM on the "Review transfer" screen
