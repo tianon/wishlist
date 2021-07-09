@@ -16,3 +16,4 @@
 - ability to cast a tab "naïvely" while ignoring any "cast" behavior the tab might have
 - ability to have the downloads "popover" menu be a bar on the bottom of the window again - the flyover menu is too far away from what I'm working on
 - an indicator of tabs which are currently inhibiting the screensaver, and a way to deny sites that privilege
+- something like "reader mode" but for bright white websites I'm trying to read in the dark that inverts or somehow darkens their bright colors
