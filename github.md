@@ -99,3 +99,5 @@
 - multiple forks in a single user/org from the same fork base (for example, I have a fork of https://github.com/conchyliculture/acme-tiny-dns but I'd *also* like a fork of the original https://github.com/diafygi/acme-tiny, separately)
 
 - "tianon force-pushed the xxx:yyy branch 3 times, most recently from FOO to BAR x days ago" needs some way to expand to show all three force pushes (at the very least so I can walk back to the original commit of the PR to check whether the final approach still matches the original)
+
+- help with the creation/maintenance of a suitable `.mailmap` file (since GitHub has the full list of commit emails *and* knows which GitHub accounts they all map to, so could help combine them)
