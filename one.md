@@ -5,7 +5,7 @@
 "Planned" (https://www.onefinance.com/spring-summer-roadmap/, https://help.onefinance.com/hc/en-us/articles/360060071534)
 
 - ~~per-pocket virtual card (direct Privacy integration?); https://twitter.com/tianon/status/1347445828638543872 + https://twitter.com/bthamilton/status/1347449056683982848~~
-- mail a check
+- ~~mail a check~~
 - ~~mobile check deposit~~
 
 ---
@@ -15,7 +15,7 @@
 - ~~pocket memo/note/description~~
 - ~~button to add money to a pocket (from the pocket details screen) even after it has activity~~ 🎉
 - better mobile (transaction) notifications (I get Spend and Direct Deposit notifications, but not notifications of other people transferring money in or out of shared pockets, which would be really handy)
-- show pockets list faster (currently they all load very slowly and pop in one by one - maybe the pocket amount needs to load separately from the names? the page clearly knows how many there are ahead of time and saves the right amount of space)
+- ~~show pockets list faster (currently they all load very slowly and pop in one by one - maybe the pocket amount needs to load separately from the names? the page clearly knows how many there are ahead of time and saves the right amount of space)~~
 - ~~"What should we call you?" (preferred name) separate from legal name~~ https://www.onefinance.com/introducing-my-name/ 🎉
 - download statement / transaction log per-pocket (CSV would be great, PDF would be fine)
 - more obvious per-pocket information (name) in "All Transactions" list
@@ -25,9 +25,9 @@
 - (read-only?) API to list all pockets (inc. deleted?) and their amounts (+ transactions) for record-keeping / auditing
 - double-click prevention/protection (I made a large transfer, but my buggy mouse double-clicked the final confirmation button and I ended up with two pending transfers and no way to cancel either...)
 - the ability to choose to *not* get a contactless/RFID physical card (simple chip+pin preferred forever)
-- "early paycheck" that actually works?  (transactions in Simple posted much earlier, and even pending transactions in Chase show up quicker, and I'm confused)
-- list special-case "Save" and "Spend" pockets first consistently (transfer screen, etc)
-- create pocket in one click (instead of explaining what pockets are every time I make one - I've got like 100 of the things now, I think I've got the idea)
+- ~~"early paycheck" that actually works?  (transactions in Simple posted much earlier, and even pending transactions in Chase show up quicker, and I'm confused)~~
+- ~~list special-case "Save" and "Spend" pockets first consistently (transfer screen, etc)~~
+- ~~create pocket in one click (instead of explaining what pockets are every time I make one - I've got like 100 of the things now, I think I've got the idea)~~
 - bulk pocket create? (list of names, create them all)
 - remove buggy delayed redirect to pocket after create (with a modal making me think I can exit and do other things before I'm hijacked); either redirect immediately or don't redirect - maybe give me a link instead so I can choose to go to the pocket I just created or not?
 - bulk transfer (think "paycheck just dropped; need to allocate bits of it to all the right pockets" - it'd be great to have a way to do several at once instead of one by one)
@@ -60,4 +60,5 @@
 - ability to rename "Linked Accounts" (or give them my own friendly name)
 - less of whatever the heck https://twitter.com/onefinancehq/status/1390014349188603905 is
 - the ability to select/copy transaction amounts in the Android application (especially for pasting in transfers to refill pockets, for example)
-- a way to change the selected pocket for TO or FROM on the "Review transfer" screen
+- ~~a way to change the selected pocket for TO or FROM on the "Review transfer" screen~~
+- TOTP 2fa
