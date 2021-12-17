@@ -101,3 +101,5 @@
 - "tianon force-pushed the xxx:yyy branch 3 times, most recently from FOO to BAR x days ago" needs some way to expand to show all three force pushes (at the very least so I can walk back to the original commit of the PR to check whether the final approach still matches the original)
 
 - help with the creation/maintenance of a suitable `.mailmap` file (since GitHub has the full list of commit emails *and* knows which GitHub accounts they all map to, so could help combine them)
+
+- some way to see what a person's profile said about who they are / where they work when they made a particular comment ("Why is the X of Y company commenting *that* on *this* issue??  Oh, they used to be at Z company.")
