@@ -62,3 +62,4 @@
 - the ability to select/copy transaction amounts in the Android application (especially for pasting in transfers to refill pockets, for example)
 - ~~a way to change the selected pocket for TO or FROM on the "Review transfer" screen~~
 - TOTP 2fa
+- if I initiate a transfer from a specific pocket, take me back to that pocket afterwards
