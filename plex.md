@@ -10,3 +10,4 @@
 - sync watched/unwatched status of the same media between collections / servers
 - explicit "watchlist" for tracking things I want to watch
 - audiobooks support (essentially audio-only TV shows)
+- better "extras" support - better browsing experience, more clearly labeled "local" vs "remote" extras
