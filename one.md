@@ -63,3 +63,4 @@
 - ~~a way to change the selected pocket for TO or FROM on the "Review transfer" screen~~
 - TOTP 2fa
 - if I initiate a transfer from a specific pocket, take me back to that pocket afterwards
+- more than 99 pockets????? 😭 (https://help.onefinance.com/hc/en-us/articles/360058426654-Deleting-a-Pocket-101 - over the *lifetime* of an account!! wtf)
