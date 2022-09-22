@@ -1,5 +1,7 @@
 # [One](https://onefinance.com)
 
+- NOOOOOO, they hit the "reset" button on basically the entire experience (bringing back some of the old fixed bugs in the process!) 😩😭
+
 ---
 
 "Planned" (https://www.onefinance.com/spring-summer-roadmap/, https://help.onefinance.com/hc/en-us/articles/360060071534)
