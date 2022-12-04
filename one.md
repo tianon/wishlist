@@ -4,6 +4,14 @@
 
 ---
 
+- ability to have all interest for pockets go to a single pocket instead of going to each pocket individually (or have it auto-transferred somewhere else)
+
+---
+---
+---
+
+## Old List (before the aforementioned reset)
+
 "Planned" (https://www.onefinance.com/spring-summer-roadmap/, https://help.onefinance.com/hc/en-us/articles/360060071534)
 
 - ~~per-pocket virtual card (direct Privacy integration?); https://twitter.com/tianon/status/1347445828638543872 + https://twitter.com/bthamilton/status/1347449056683982848~~
