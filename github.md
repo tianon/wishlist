@@ -105,3 +105,5 @@
 - some way to see what a person's profile said about who they are / where they work when they made a particular comment ("Why is the X of Y company commenting *that* on *this* issue??  Oh, they used to be at Z company.")
 
 - ~~choose a name / rename a fork *during* forking (so there isn't ever even a redirect for the old name)~~
+
+- a way to choose a PR as the target ref for a `workflow_dispatch` GHA trigger
