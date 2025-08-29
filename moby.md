@@ -32,3 +32,6 @@
 - destroy the "managed plugin containers" concept - even the containers above should just be normal containers, even if they're hidden from `docker ps` by default
 
 - container startup ordering (especially for plugins implemented by containers)
+
+- overlay networks without Swarm
+	- overlay networks using WireGuard (see also "network plugins" note above)
