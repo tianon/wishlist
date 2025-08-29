@@ -20,3 +20,15 @@
 
 - `--interactive` should just be straight up enabled-by-default
 	- related, it's got some poor Ctrl-C vs signal handling behavior that could use some work/attention (because Ctrl-C is a TTY thing)
+
+- explicit support for X11 and creating a secure proxy for it (maybe Wayland is better at/for this?)
+
+- better/simpler Network Plugins so that something like Tailscale can be integrated cleanly/easily without weird sidecar containers
+
+- simpler "easy mode" Mount/Volume Plugins
+	- for many cases, it would be "enough" to have a way to say "run X command inside a container of Y image and pass it Z data and it will run/provide a mounted volume"
+	- for example, `sshfs` or NFS (or any FUSE filesystem) would be trivial this way, assuming we can get `--device /dev/fuse` too
+
+- destroy the "managed plugin containers" concept - even the containers above should just be normal containers, even if they're hidden from `docker ps` by default
+
+- container startup ordering (especially for plugins implemented by containers)
