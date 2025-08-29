@@ -14,3 +14,9 @@
 
 - split TTY handling (`--tty` is all-or-nothing, and I'd like to say "tty for stdin+stderr only" for example)
 	- some CLIs are like `sudo` and to use them requires sending output to stdout, but still using stderr + stdin's TTY to prompt for a password
+	- think `value="$(sudo ...)"` except it's `value="$(docker run --tty=stdin ...)"`
+
+- `--rm` should be enabled-by-default unless `--detach` is specified
+
+- `--interactive` should just be straight up enabled-by-default
+	- related, it's got some poor Ctrl-C vs signal handling behavior that could use some work/attention (because Ctrl-C is a TTY thing)
