@@ -107,3 +107,7 @@
 - ~~choose a name / rename a fork *during* forking (so there isn't ever even a redirect for the old name)~~
 
 - a way to choose a PR as the target ref for a `workflow_dispatch` GHA trigger
+
+- actions: a way for an "action" to know which commit it's building from (maybe Git being part of the platform itself instead of actions being downloaded a zip/tarballs? 🙃)
+
+- actions: https://github.com/actions/runner/issues/1478 (blocks the ability to write "pure shell" actions -- Node.js is wild, and shouldn't be required; Docker/containers are great but limiting as an action source)
