@@ -11,3 +11,6 @@
 
 - direct rootfs support
 	- `docker run` a rootfs directly ("super `chroot`") - I currently use `systemd-nspawn` for this, but it has a *lot* of very rough/sharp edges
+
+- split TTY handling (`--tty` is all-or-nothing, and I'd like to say "tty for stdin+stderr only" for example)
+	- some CLIs are like `sudo` and to use them requires sending output to stdout, but still using stderr + stdin's TTY to prompt for a password
