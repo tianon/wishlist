@@ -12,6 +12,9 @@
 - direct rootfs support
 	- `docker run` a rootfs directly ("super `chroot`") - I currently use `systemd-nspawn` for this, but it has a *lot* of very rough/sharp edges
 
+- layer multiple images on top of each other at runtime (`--mount`, but more explicitly added layers)
+    - `docker run 'some-java-runtime-image + some-java-application-image'` composability
+
 - split TTY handling (`--tty` is all-or-nothing, and I'd like to say "tty for stdin+stderr only" for example)
 	- some CLIs are like `sudo` and to use them requires sending output to stdout, but still using stderr + stdin's TTY to prompt for a password
 	- think `value="$(sudo ...)"` except it's `value="$(docker run --tty=stdin ...)"`
