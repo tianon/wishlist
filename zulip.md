@@ -10,6 +10,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - reaction notifications (https://github.com/zulip/zulip/issues/27327)
 
+- poll response notifications
+
 - more customizable left sidebar
 
 - when "press Enter to send" is turned on, typing markdown like \`\`\` that's clearly supposed to start a code block and then Enter should _not_ send but should newline until the accompanying closing sentinel
@@ -27,6 +29,7 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - when uploading for the organization image or personal avatar, pan/zoom should be offered to cut it appropriately (for the organization image, it just chopped my image for me, cut off the animation from the GIF, and none of that in a very flattering way)
 
 - easier ways to run regular backups, especially from Zulip Cloud
+  - for now, I've set up a bot to regularly run (and download) exports from Jenkins
 
 ## DMs
 
