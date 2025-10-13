@@ -30,6 +30,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - for some channels, it would be nice to *always* show the topic list in the sidebar, not just when the channel is selected (to reduce the time needed to jump in and start communicating, especially with frequent context switches)
 
+- "Include content of direct messages in desktop notifications" should either _also_ apply to private/limited channels, or there should be a separate (perhaps per-channel?) setting for it, because they're similarly private/privileged comms
+
 - easier ways to run regular backups, especially from Zulip Cloud
   - for now, I've set up a bot to regularly run (and download) exports from Jenkins
 
