@@ -26,6 +26,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - when uploading for the organization image or personal avatar, pan/zoom should be offered to cut it appropriately (for the organization image, it just chopped my image for me, cut off the animation from the GIF, and none of that in a very flattering way)
 
+- easier ways to run regular backups, especially from Zulip Cloud
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
@@ -48,3 +50,9 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - easier navigation into topics / control over whether clicking a channel drops straight into a topic, the channel feed, or the topics list
   - topics on the channels page: https://github.com/zulip/zulip-flutter/issues/412 (also touches on the "new topic" noted above from 1385)
+
+## Dockerization
+
+Before I gave up and decided to use Zulip Cloud, I tried very hard to run Zulip locally using Docker containers (something I happen to know a thing or two about), and boy howdy this application is **designed** to run inside a hand-maintained virtual machine.  Given the age of the software, I can't really blame them for it, but it sure made running my own instance a pain because the upstream-published image just mimics a VM and I'm "weird" about my containers to that's DOA for me.  I did manage to get something running in my own containers, but every single inch of progress was an uphill battle.  For comparison, most competing solutions (those that are open source, that is) I was able to make my own container images from source successfully in a day or two's work.
+
+With all that being said, I'm clearly still using the product because as I noted above, they have some _really_ killer functionality that sets them apart from every other tool, even if they're missing a lot of the shine and polish of their competitors, to the point where I gave up running it myself completely. 🤷
