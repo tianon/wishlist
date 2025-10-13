@@ -28,6 +28,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - when uploading for the organization image or personal avatar, pan/zoom should be offered to cut it appropriately (for the organization image, it just chopped my image for me, cut off the animation from the GIF, and none of that in a very flattering way)
 
+- for some channels, it would be nice to *always* show the topic list in the sidebar, not just when the channel is selected (to reduce the time needed to jump in and start communicating, especially with frequent context switches)
+
 - easier ways to run regular backups, especially from Zulip Cloud
   - for now, I've set up a bot to regularly run (and download) exports from Jenkins
 
@@ -53,6 +55,7 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - easier navigation into topics / control over whether clicking a channel drops straight into a topic, the channel feed, or the topics list
   - topics on the channels page: https://github.com/zulip/zulip-flutter/issues/412 (also touches on the "new topic" noted above from 1385)
+  - it takes no less than *six* clicks to get into a specific topic to start chatting (click on the Zulip app, click on the channels icon, click on the channel, click on the topic list, click on the topic, click on the message box), meanwhile *all* the channel topics flash on my screen for a minute, some of which might be more sensitive than others (shoulder surfers)
 
 ## Dockerization
 
