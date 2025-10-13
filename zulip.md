@@ -18,6 +18,8 @@
 
 - more padding on settings pages when the website is viewed on mobile (things get cut off for me - I'm usually loading the website on mobile because of the mobile app missing so many features)
 
+- when uploading for the organization image or personal avatar, pan/zoom should be offered to cut it appropriately (for the organization image, it just chopped my image for me, cut off the animation from the GIF, and none of that in a very flattering way)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
@@ -28,12 +30,15 @@
 
 - most of the desktop functionality 😭 (why is the mobile experience practically a totally different tool??)
   - the desktop emoji picker for reactions; mobile has a hyper long list that's hard to browse
-  - moving messages (https://github.com/zulip/zulip-flutter/issues/1438)
+  - moving messages (https://github.com/zulip/zulip-flutter/issues/1438, https://github.com/zulip/zulip-flutter/issues/530)
   - easier editing/creating topics (like from the topic list)
+    - creating topics: https://github.com/zulip/zulip-flutter/issues/1385
   - something that looks more like the "left sidebar" of the desktop UI
+  - show channel folders (https://github.com/zulip/zulip-flutter/issues/1765)
 
 - double-tap for 👍 (https://github.com/zulip/zulip-flutter/issues/969)
 
-- message preview, especially for complex markdown, code blocks, or "math"/LaTeX expressions
+- message preview, especially for complex markdown, code blocks, or "math"/LaTeX expressions (https://github.com/zulip/zulip-flutter/issues/178)
 
 - easier navigation into topics / control over whether clicking a channel drops straight into a topic, the channel feed, or the topics list
+  - topics on the channels page: https://github.com/zulip/zulip-flutter/issues/412 (also touches on the "new topic" noted above from 1385)
