@@ -1,5 +1,11 @@
 # [Zulip](https://zulip.com/)
 
+For context, I've started (as of 2025-10) using Zulip for family chat, and the primary selling point is literally the ability to move messages (which no competitor seems to have figured out is critically important for a chat tool like this).
+
+A consequence of using this for _family_ chat is that 90% of the usage of the instance will be from mobile, with most users never touching the web interface, so the mobile experience being so ... limited ... is a _real_ downer for everyone.
+
+## General
+
 - frequently used reaction emoji or customizable "popular emoji" (https://github.com/zulip/zulip/issues/21841)
 
 - reaction notifications (https://github.com/zulip/zulip/issues/27327)
