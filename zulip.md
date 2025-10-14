@@ -35,6 +35,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - easier ways to run regular backups, especially from Zulip Cloud
   - for now, I've set up a bot to regularly run (and download) exports from Jenkins
 
+- better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
