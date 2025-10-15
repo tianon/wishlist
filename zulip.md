@@ -69,6 +69,10 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - "mark as read" and "reply" directly from notifications
 
+- better "share to" functionality
+  - showing potential share targets in the "share" dialog
+  - when sharing to a channel, it pulls up the channel, drops the shared content in the chat box, and defaults to "general chat" but shows the channel feed - if I click on a topic above, it opens that topic but my sharing content is gone, so it would be useful if the top half of that "share" dialog could be a topic *list* instead (and then clicking one could just seed the "topic" box in the message below)
+
 ## Dockerization
 
 Before I gave up and decided to use Zulip Cloud, I tried very hard to run Zulip locally using Docker containers (something I happen to know a thing or two about), and boy howdy this application is **designed** to run inside a hand-maintained virtual machine.  Given the age of the software, I can't really blame them for it, but it sure made running my own instance a pain because the upstream-published image just mimics a VM and I'm "weird" about my containers to that's DOA for me.  I did manage to get something running in my own containers, but every single inch of progress was an uphill battle.  For comparison, most competing solutions (those that are open source, that is) I was able to make my own container images from source successfully in a day or two's work.
