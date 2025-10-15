@@ -39,6 +39,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - "Drafts are not synced to other devices and browsers." is rubbish and they *should* be sync'd, especially to/from mobile (typing a comment, want to preview it or type it on a bigger device, etc)
 
+- multiple names for a single custom emoji (just like many of the built-in emoji have)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
