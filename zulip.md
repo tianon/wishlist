@@ -73,6 +73,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - the option for bigger gif preview in the "giphy" search (they're all so tiny on my 4k screen 😅)
 
+- alt text for images (`![alt text](image URL)`, in most markdown syntax)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
