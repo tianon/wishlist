@@ -75,6 +75,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - alt text for images (`![alt text](image URL)`, in most markdown syntax)
 
+- images in a topic zoom larger with a carousel of *all images* at the bottom - this is great, *except* when some of those images appear inside spoiler tags and should probably be "spoiler blocked" inside the carousel too 😅
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
