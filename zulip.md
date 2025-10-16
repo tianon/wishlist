@@ -60,9 +60,11 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - most of the desktop functionality 😭 (why is the mobile experience practically a totally different tool??)
   - something that looks more like the "left sidebar" of the desktop UI -- that sidebar could literally be the app landing page
   - the desktop emoji picker for reactions; mobile has a hyper long list that's hard to browse
+    - > Reaction emoji options to be more grid-like like in the message box because I don't know what they are called or what keywords to search for so my options are limited since it doesn't endlessly scroll either
   - moving messages (https://github.com/zulip/zulip-flutter/issues/1438, https://github.com/zulip/zulip-flutter/issues/530)
   - easier editing/creating topics (like from the topic list)
     - creating topics: https://github.com/zulip/zulip-flutter/issues/1385
+    - > Topic title editing on mobile!
   - show channel folders (https://github.com/zulip/zulip-flutter/issues/1765)
   - at least the _option_ for the "full" message editing experience (all the helpful buttons, the message formatting quick-reference, etc)
   - when _typing_ emoji (not reacting), most mobile keyboards have easy access to the Unicode-approved set of emoji, so an emoji picker that emphasizes custom emoji ahead of "standard" emoji would be nice
@@ -81,6 +83,7 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
   - (as above) a way to default some or all channels to dropping straight into "general chat" (or maybe a customizable "default topic" per channel) when they're selected
 
 - per-conversation customizable notifications
+  - > Does it have the option of different ring tones for different channels?
   - in most chat apps, the notifications for a given conversation allow long-clicking in the notification area and setting custom sounds, etc specific to that conversation
   - ideally this could be per-topic so that really important conversations can have a unique sound, but per-channel would be really reasonable too ("important" conversations can be split off into a separate channel pretty reasonably, even though topics feel cleaner and like a little sub-channel)
 
