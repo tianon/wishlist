@@ -41,6 +41,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - multiple names for a single custom emoji (just like many of the built-in emoji have)
 
+- a way to default some or all channels to dropping straight into "general chat" when they're selected
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
@@ -64,7 +66,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - easier navigation into topics / control over whether clicking a channel drops straight into a topic, the channel feed, or the topics list
   - topics on the channels page: https://github.com/zulip/zulip-flutter/issues/412 (also touches on the "new topic" noted above from 1385)
   - it takes no less than *six* clicks to get into a specific topic to start chatting (click on the Zulip app, click on the channels icon, click on the channel, click on the topic list, click on the topic, click on the message box), meanwhile *all* the channel topics flash on my screen for a minute, some of which might be more sensitive than others (shoulder surfers)
-  - most chat apps on Android support long-clicking the application icon to "deep link" directly to into a recent conversation, and even dragging that out into a separate shortcut for a persistent conversation
+  - most chat apps on Android support long-clicking the application icon to "deep link" directly to into a recent conversation, and even dragging that out into a separate shortcut for a persistent conversation -- this would be really neat for "pinning" common topics to my home screen for instant access
+  - (as above) a way to default some or all channels to dropping straight into "general chat" when they're selected
 
 - per-conversation customizable notifications
   - in most chat apps, the notifications for a given conversation allow long-clicking in the notification area and setting custom sounds, etc specific to that conversation
