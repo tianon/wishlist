@@ -61,6 +61,10 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
     - creating topics: https://github.com/zulip/zulip-flutter/issues/1385
   - something that looks more like the "left sidebar" of the desktop UI
   - show channel folders (https://github.com/zulip/zulip-flutter/issues/1765)
+  - really, at least the _option_ for the "full" message editing experience (all the helpful buttons, the message formatting quick-reference, etc)
+  - when _typing_ emoji (not reacting), most mobile keyboards have easy access to the Unicode-approved set of emoji, so an emoji picker that emphasizes custom emoji ahead of "standard" emoji would be nice
+    - bonus points if it can also emphasize emoji that the current phone's operating system doesn't support yet, but Zulip does 👀
+    - (basically, making it easy to type emoji that exist in a Zulip instance but aren't easy to type on a phone keyboard)
 
 - double-tap for 👍 (https://github.com/zulip/zulip-flutter/issues/969)
 
