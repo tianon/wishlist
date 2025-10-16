@@ -79,6 +79,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - when I click on a topic in the sidebar and then start typing, it should either already have focused the messagebox or immediately focus the messagebox (ie, it should only take one click to get into a topic and start typing a message)
 
+- the web interface seems to prefer to leave half the visible space of the screen blank (when the thread is scrolled all the way down, the bottom of the most recent message is roughly mid-screen), which is a weird use of space (especially when the expanded messagebox below it that it seems like it might've been saving space for is collapsed and even small by default when expanded)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
