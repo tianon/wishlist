@@ -29,6 +29,7 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - when uploading for the organization image or personal avatar, pan/zoom should be offered to cut it appropriately (for the organization image, it just chopped my image for me, cut off the animation from the GIF, and none of that in a very flattering way)
 
 - for some channels, it would be nice to *always* show the topic list in the sidebar, not just when the channel is selected (to reduce the time needed to jump in and start communicating, especially with frequent context switches)
+  - maybe a way to pin _topics_ too, not just channels?
 
 - "Include content of direct messages in desktop notifications" should either _also_ apply to private/limited channels, or there should be a separate (perhaps per-channel?) setting for it, because they're similarly private/privileged comms
 
@@ -37,7 +38,7 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications)
 
-- "Drafts are not synced to other devices and browsers." is rubbish and they *should* be sync'd, especially to/from mobile (typing a comment, want to preview it or type it on a bigger device, etc)
+- "Drafts are not synced to other devices and browsers." is really sad and they *should* be sync'd, especially to/from mobile (start typing a comment, want to preview it or type it on a bigger device, etc)
 
 - multiple names for a single custom emoji (just like many of the built-in emoji have)
 
@@ -48,6 +49,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
 
 - moving messages to/from DMs (https://github.com/zulip/zulip/issues/20501)
+
+(in our testing, we're currently working around the DM limitations by using private 1:1 or 1:n channels instead, which brings quirks of its own like having to come up with cute names that mean something to *all* participants, like "parents" for the 1:1 with my spouse)
 
 ## [Android](https://github.com/zulip/zulip-flutter)
 
