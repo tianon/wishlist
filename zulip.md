@@ -15,6 +15,7 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - more customizable left sidebar
 
 - when "press Enter to send" is turned on, typing markdown like \`\`\` that's clearly supposed to start a code block and then Enter should _not_ send but should newline until the accompanying closing sentinel
+  - similarly, it would be nice to be able to tweak this setting when typing polls and todo lists to prevent premature sending (and because there, pressing "Enter" is literally how you add new items so it makes sense that sending should be an explicit separate action, not an "oops, I forgot Shift this time, guess it's done")
 
 - better markdown support (for example, \_underlines\_ are supposed to be _italic_)
 
@@ -44,6 +45,8 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - a way to default some or all channels to defaulting straight into "general chat" (or maybe choosing any specific topic as default) when they're selected
 
+- pressing "enter" in the "new task" or "description" field on a task list should add the task and focus the field for adding another
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
@@ -55,26 +58,27 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 ## [Android](https://github.com/zulip/zulip-flutter)
 
 - most of the desktop functionality 😭 (why is the mobile experience practically a totally different tool??)
+  - something that looks more like the "left sidebar" of the desktop UI -- that sidebar could literally be the app landing page
   - the desktop emoji picker for reactions; mobile has a hyper long list that's hard to browse
   - moving messages (https://github.com/zulip/zulip-flutter/issues/1438, https://github.com/zulip/zulip-flutter/issues/530)
   - easier editing/creating topics (like from the topic list)
     - creating topics: https://github.com/zulip/zulip-flutter/issues/1385
-  - something that looks more like the "left sidebar" of the desktop UI
   - show channel folders (https://github.com/zulip/zulip-flutter/issues/1765)
-  - really, at least the _option_ for the "full" message editing experience (all the helpful buttons, the message formatting quick-reference, etc)
+  - at least the _option_ for the "full" message editing experience (all the helpful buttons, the message formatting quick-reference, etc)
   - when _typing_ emoji (not reacting), most mobile keyboards have easy access to the Unicode-approved set of emoji, so an emoji picker that emphasizes custom emoji ahead of "standard" emoji would be nice
     - bonus points if it can also emphasize emoji that the current phone's operating system doesn't support yet, but Zulip does 👀
     - (basically, making it easy to type emoji that exist in a Zulip instance but aren't easy to type on a phone keyboard)
 
-- double-tap for 👍 (https://github.com/zulip/zulip-flutter/issues/969)
+- double-tap for 👍 (https://github.com/zulip/zulip-flutter/issues/969), maybe even customizable? (double tap for :heart:, :ack:, etc - could be different per channel but that makes the experience less predictable)
 
 - message preview, especially for complex markdown, code blocks, or "math"/LaTeX expressions (https://github.com/zulip/zulip-flutter/issues/178)
+  - (see also above - would love the "full" message experience)
 
 - easier navigation into topics / control over whether clicking a channel drops straight into a topic, the channel feed, or the topics list
   - topics on the channels page: https://github.com/zulip/zulip-flutter/issues/412 (also touches on the "new topic" noted above from 1385)
   - it takes no less than *six* clicks to get into a specific topic to start chatting (click on the Zulip app, click on the channels icon, click on the channel, click on the topic list, click on the topic, click on the message box), meanwhile *all* the channel topics flash on my screen for a minute, some of which might be more sensitive than others (shoulder surfers)
   - most chat apps on Android support long-clicking the application icon to "deep link" directly to into a recent conversation, and even dragging that out into a separate shortcut for a persistent conversation -- this would be really neat for "pinning" common topics to my home screen for instant access
-  - (as above) a way to default some or all channels to dropping straight into "general chat" when they're selected
+  - (as above) a way to default some or all channels to dropping straight into "general chat" (or maybe a customizable "default topic" per channel) when they're selected
 
 - per-conversation customizable notifications
   - in most chat apps, the notifications for a given conversation allow long-clicking in the notification area and setting custom sounds, etc specific to that conversation
