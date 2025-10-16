@@ -57,6 +57,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications / having a whole new "full" view)
 
 - "Drafts are not synced to other devices and browsers." is really sad and they *should* be sync'd, especially to/from mobile (start typing a comment, want to preview it or type it on a bigger device, etc)
+  - > Doh lost my message by switching screens ... I somehow got back to this screen and there was my message partially typed
 
 - multiple names for a single custom emoji (just like many of the built-in emoji have)
 
@@ -120,11 +121,14 @@ With all that being said, I'm clearly still using the product because as I noted
 ### Zulip Cloud
 
 - not thrilled about the free tier message limit or the pricing for "home" usage, but perhaps that's what I get for considering an enterprisey solution
+  - maybe we qualify for a "community plan" ? "Communities and personal organizations (clubs, groups of friends, volunteer groups, etc.)"
 
 - the 5GB of storage has me _really_ worried because for personal family chat, we're likely to be sharing a lot of images over time and the storage for those is really going to add up fast
   - it would be neat if I could bring my own (image) storage, somehow?  like provide a Backblaze B2/AWS S3 bucket, or similar
 
 - organization-level audit logs (which IPs are accessing, etc)
   - this helps with the peace-of-mind for how private my household chats are, because many of them will be really sensitive
+
+- warrant/federal access policy?
 
 (ideally I'd really self-host which would make both of these moot, but that's also why this section is nested under Dockerization -- self-hosting also has rough implications for the household-acceptance-factor because it becomes my problem to provide remote access to it and secure it appropriately, but that's tenable)
