@@ -138,5 +138,6 @@ With all that being said, I'm clearly still using the product because as I noted
   - this helps with the peace-of-mind for how private my household chats are, because many of them will be really sensitive
 
 - warrant/federal access policy?
+  - employee/IT access policy?
 
 (ideally I'd really self-host which would make both of these moot, but that's also why this section is nested under Dockerization -- self-hosting also has rough implications for the household-acceptance-factor because it becomes my problem to provide remote access to it and secure it appropriately, but that's tenable)
