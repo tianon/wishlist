@@ -77,6 +77,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - images in a topic zoom larger with a carousel of *all images* at the bottom - this is great, *except* when some of those images appear inside spoiler tags and should probably be "spoiler blocked" inside the carousel too 😅
 
+- when I click on a topic in the sidebar and then start typing, it should either already have focused the messagebox or immediately focus the messagebox (ie, it should only take one click to get into a topic and start typing a message)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
