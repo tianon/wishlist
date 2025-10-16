@@ -36,13 +36,13 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 - easier ways to run regular backups, especially from Zulip Cloud
   - for now, I've set up a bot to regularly run (and download) exports from Jenkins
 
-- better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications)
+- better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications / having a whole new "full" view)
 
 - "Drafts are not synced to other devices and browsers." is really sad and they *should* be sync'd, especially to/from mobile (start typing a comment, want to preview it or type it on a bigger device, etc)
 
 - multiple names for a single custom emoji (just like many of the built-in emoji have)
 
-- a way to default some or all channels to dropping straight into "general chat" when they're selected
+- a way to default some or all channels to defaulting straight into "general chat" (or maybe choosing any specific topic as default) when they're selected
 
 ## DMs
 
