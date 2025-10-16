@@ -71,6 +71,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - bot descriptions (custom profile fields for bots?), so their purpose can be written down somewhere discoverable by other users who might be off-put by "bots" (especially less technical users whose exposure to the term "bots" in 2025 is now mostly AI slop 😭)
 
+- the option for bigger gif preview in the "giphy" search (they're all so tiny on my 4k screen 😅)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
