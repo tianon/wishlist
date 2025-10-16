@@ -4,6 +4,23 @@ For context, I've started (as of 2025-10) using Zulip for family chat, and the p
 
 A consequence of using this for _family_ chat is that 90% of the usage of the instance will be from mobile, with most users never touching the web interface, so the mobile experience being so ... limited ... is a _real_ downer for everyone.
 
+This list focuses mostly on the bad/downsides, because that's who I am (sorry!) -- in my opinion, the good mostly speaks for itself.  If you want to know what I mean, you can fall in love with Zulip before you ever try it by following the exact same steps I did:
+- open https://zulip.com/help/
+- scroll the sidebar reading topic titles
+- click on and read anything that sounds even remotely interesting
+- every. single. feature. is. a. banger.
+  - explicit topics per channel (no more chaos threads)
+  - moving messages between topics, channels
+  - "full" markdown support (lists, sublists, TYPED code blocks, etc)
+  - spoiler tags
+  - collaborative TODO lists
+  - polls
+  - more than one emoji reaction per person (looking straight at you, Signal)
+  - "global times" (post a date/time, everyone can see it as if you typed their local - no more date math)
+  - LaTeX for embedded math
+  - tables
+  - trivial/clean bot support (including trivial per-user bots) + straightforward APIs (the "Jenkins" item I note in the lists below took me all of an hour at most to set up completely)
+
 ## General
 
 - frequently used reaction emoji or customizable "popular emoji" (https://github.com/zulip/zulip/issues/21841)
