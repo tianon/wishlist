@@ -82,15 +82,29 @@ A consequence of using this for _family_ chat is that 90% of the usage of the in
 
 - per-conversation customizable notifications
   - in most chat apps, the notifications for a given conversation allow long-clicking in the notification area and setting custom sounds, etc specific to that conversation
+  - ideally this could be per-topic so that really important conversations can have a unique sound, but per-channel would be really reasonable too ("important" conversations can be split off into a separate channel pretty reasonably, even though topics feel cleaner and like a little sub-channel)
 
-- "mark as read" and "reply" directly from notifications
+- "mark as read" (and/or "reply") quick action directly from notifications
 
 - better "share to" functionality
   - showing potential share targets in the "share" dialog
   - when sharing to a channel, it pulls up the channel, drops the shared content in the chat box, and defaults to "general chat" but shows the channel feed - if I click on a topic above, it opens that topic but my sharing content is gone, so it would be useful if the top half of that "share" dialog could be a topic *list* instead (and then clicking one could just seed the "topic" box in the message below)
+  - related to some of the above feedback, perhaps implementing more of that type of thing would naturally surface topics or at least channels here?
 
 ## Dockerization
 
-Before I gave up and decided to use Zulip Cloud, I tried very hard to run Zulip locally using Docker containers (something I happen to know a thing or two about), and boy howdy this application is **designed** to run inside a hand-maintained virtual machine.  Given the age of the software, I can't really blame them for it, but it sure made running my own instance a pain because the upstream-published image just mimics a VM and I'm "weird" about my containers to that's DOA for me.  I did manage to get something running in my own containers, but every single inch of progress was an uphill battle.  For comparison, most competing solutions (those that are open source, that is) I was able to make my own container images from source successfully in a day or two's work.
+Before I gave up and decided to use Zulip Cloud, I tried very hard to run Zulip locally using Docker containers (something I happen to know a thing or two about), and boy howdy this application is **designed** to run inside a hand-maintained virtual machine.  Given the age of the software, I can't really blame them for it, but it sure made running my own instance a pain because the upstream-published image just mimics a VM and I'm "weird" about my containers so that's DOA for me.  I did manage to get something running in my own containers, but every single inch of progress was an uphill battle.  For comparison, most competing solutions (those that are open source, that is) I was able to make my own container images from source successfully in a day or two's work (because they're designed to be separate from the database, etc from the start).
 
-With all that being said, I'm clearly still using the product because as I noted above, they have some _really_ killer functionality that sets them apart from every other tool, even if they're missing a lot of the shine and polish of their competitors, to the point where I gave up running it myself completely. 🤷
+With all that being said, I'm clearly still using the product because as I noted above, they have some _really_ killer functionality that sets them apart from every other tool, even if they're missing a lot of the shine and polish of their competitors, to the point where I gave up running it myself completely but did still want to use it. 🤷
+
+### Zulip Cloud
+
+- not thrilled about the free tier message limit or the pricing for "home" usage, but perhaps that's what I get for considering an enterprisey solution
+
+- the 5GB of storage has me _really_ worried because for personal family chat, we're likely to be sharing a lot of images over time and the storage for those is really going to add up fast
+  - it would be neat if I could bring my own (image) storage, somehow?  like provide a Backblaze B2/AWS S3 bucket, or similar
+
+- organization-level audit logs (which IPs are accessing, etc)
+  - this helps with the peace-of-mind for how private my household chats are, because many of them will be really sensitive
+
+(ideally I'd really self-host which would make both of these moot, but that's also why this section is nested under Dockerization -- self-hosting also has rough implications for the household-acceptance-factor because it becomes my problem to provide remote access to it and secure it appropriately, but that's tenable)
