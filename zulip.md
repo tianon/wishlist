@@ -67,6 +67,10 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - polls with an enforced and well-advertised time limit (possibly "re-openable" ?)
 
+- optionally (per-channel?) actively *show* read-receipts on messages (maybe similar to reactions? or even as a "special" reaction so it has the same name-showing behavior?)
+
+- bot descriptions (custom profile fields for bots?), so their purpose can be written down somewhere discoverable by other users who might be off-put by "bots" (especially less technical users whose exposure to the term "bots" in 2025 is now mostly AI slop 😭)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
