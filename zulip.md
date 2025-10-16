@@ -65,6 +65,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - pressing "enter" in the "new task" or "description" field on a task list should add the task and focus the field for adding another
 
+- polls with an enforced and well-advertised time limit (possibly "re-openable" ?)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
@@ -88,6 +90,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - when _typing_ emoji (not reacting), most mobile keyboards have easy access to the Unicode-approved set of emoji, so an emoji picker that emphasizes custom emoji ahead of "standard" emoji would be nice
     - bonus points if it can also emphasize emoji that the current phone's operating system doesn't support yet, but Zulip does 👀
     - (basically, making it easy to type emoji that exist in a Zulip instance but aren't easy to type on a phone keyboard)
+  - ... support for todo lists at all (but at the very least, added items should show up somehow??  maybe strikethrough for checked off things??  ideally the actual list)
+  - the same LaTeX rendering engine the web UI uses (things like `\frac{a}{b}` works great on web but not on mobile and unless you know that, you wouldn't know your audience is seeing raw LaTeX instead of a cute formula)
 
 - double-tap for 👍 (https://github.com/zulip/zulip-flutter/issues/969), maybe even customizable? (double tap for :heart:, :ack:, etc - could be different per channel but that makes the experience less predictable)
 
