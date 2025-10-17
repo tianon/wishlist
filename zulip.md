@@ -81,6 +81,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - the web interface seems to prefer to leave half the visible space of the screen blank (when the thread is scrolled all the way down, the bottom of the most recent message is roughly mid-screen), which is a weird use of space (especially when the expanded messagebox below it that it seems like it might've been saving space for is collapsed and even small by default when expanded)
 
+- if my default channel view is set to "topics list" and I click into a topic and then press <kbd>Esc</kbd>, it should take me "back" to the topics list
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
