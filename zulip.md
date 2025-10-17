@@ -52,7 +52,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - "Include content of direct messages in desktop notifications" should either _also_ apply to private/limited channels, or there should be a separate (perhaps per-channel?) setting for it, because they're similarly private/privileged comms
 
 - easier ways to run regular backups, especially from Zulip Cloud
-  - for now, I've set up a bot to regularly run (and download) exports from Jenkins
+  - ~~for now, I've set up a bot to regularly run (and download) exports from Jenkins~~
+  - welp, scratch that, now getting "Export failed: Exceeded rate limit." (but with a 400 status code, not 429) -- I can't find any documented limits but it must be five exports? (that's how many I have now)
 
 - better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications / having a whole new "full" view)
 
