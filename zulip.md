@@ -116,6 +116,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - ... support for todo lists at all (but at the very least, added items should show up somehow??  maybe strikethrough for checked off things??  ideally the actual list)
   - the same LaTeX rendering engine the web UI uses (things like `\frac{a}{b}` works great on web but not on mobile and unless you know that, you wouldn't know your audience is seeing raw LaTeX instead of a cute formula)
   - support for `/me` 😔
+  - profile viewing/editing
 
 - double-tap for 👍 (https://github.com/zulip/zulip-flutter/issues/969), maybe even customizable? (double tap for :heart:, :ack:, etc - could be different per channel but that makes the experience less predictable)
 
