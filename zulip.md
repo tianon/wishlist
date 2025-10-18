@@ -144,11 +144,14 @@ With all that being said, I'm clearly still using the product because as I noted
 
 ### Zulip Cloud
 
-- not thrilled about the free tier message limit or the pricing for "home" usage, but perhaps that's what I get for considering an enterprisey solution
-  - maybe we qualify for a "community plan" ? "Communities and personal organizations (clubs, groups of friends, volunteer groups, etc.)"
+- ~~not thrilled about the free tier message limit or the pricing for "home" usage, but perhaps that's what I get for considering an enterprisey solution~~
+  - ~~maybe we qualify for a "community plan" ? "Communities and personal organizations (clubs, groups of friends, volunteer groups, etc.)"~~
+  - confirmed, am now "sponsored" by Zulip! 😊 ![round Zulip logo, as requested](https://github.com/zulip/zulip/raw/5ee9ae7eab3e9d8e87c04842c94d6255540ce2c5/static/images/logo/zulip-icon-circle.svg)
+  - > If you could list Zulip as a sponsor on your website, we would really appreciate it!
 
 - the 5GB of storage has me _really_ worried because for personal family chat, we're likely to be sharing a lot of images over time and the storage for those is really going to add up fast
   - it would be neat if I could bring my own (image) storage, somehow?  like provide a Backblaze B2/AWS S3 bucket, or similar
+  - with "Standard" it goes up to 5GB/user, but that's still really small and makes me nervous 😅
 
 - organization-level audit logs (which IPs are accessing, etc)
   - this helps with the peace-of-mind for how private my household chats are, because many of them will be really sensitive
