@@ -90,6 +90,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - custom emoji in topic titles (and/or an emoji keyboard for topic titles on web where emoji keyboards are less commonly available from the OS)
 
+- "Default user settings" should allow configuring custom per-channel defaults too (especially for "everyone joins this channel" channels)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
