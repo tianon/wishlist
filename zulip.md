@@ -146,7 +146,7 @@ With all that being said, I'm clearly still using the product because as I noted
 
 - ~~not thrilled about the free tier message limit or the pricing for "home" usage, but perhaps that's what I get for considering an enterprisey solution~~
   - ~~maybe we qualify for a "community plan" ? "Communities and personal organizations (clubs, groups of friends, volunteer groups, etc.)"~~
-  - confirmed, am now "sponsored" by Zulip! 😊 ![round Zulip logo, as requested](https://github.com/zulip/zulip/raw/5ee9ae7eab3e9d8e87c04842c94d6255540ce2c5/static/images/logo/zulip-icon-circle.svg)
+  - confirmed, am now "sponsored" by Zulip! 😊 ![round Zulip logo, as requested](https://github.com/zulip/zulip/blob/5ee9ae7eab3e9d8e87c04842c94d6255540ce2c5/static/images/logo/zulip-icon-128x128.png?raw=true)
   - > If you could list Zulip as a sponsor on your website, we would really appreciate it!
 
 - the 5GB of storage has me _really_ worried because for personal family chat, we're likely to be sharing a lot of images over time and the storage for those is really going to add up fast
