@@ -56,6 +56,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - welp, scratch that, now getting "Export failed: Exceeded rate limit." (but with a 400 status code, not 429) -- I can't find any documented limits but it must be five exports? (that's how many I have now)
 
 - better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications / having a whole new "full" view)
+  - relatedly, "settings" being so modal is irritating when I'm getting messages while changing settings and want to read them but not lose what I'm working on
 
 - "Drafts are not synced to other devices and browsers." is really sad and they *should* be sync'd, especially to/from mobile (start typing a comment, want to preview it or type it on a bigger device, etc)
   - > Doh lost my message by switching screens ... I somehow got back to this screen and there was my message partially typed
