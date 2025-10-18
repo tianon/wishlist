@@ -86,6 +86,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - some way to subscribe a group to a channel in a way that subscribes future members of that group automatically too
 
+- a way for administrators to modify the avatar of users
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
