@@ -84,6 +84,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - if my default channel view is set to "topics list" and I click into a topic and then press <kbd>Esc</kbd>, it should take me "back" to the topics list
 
+- some way to subscribe a group to a channel in a way that subscribes future members of that group automatically too
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
