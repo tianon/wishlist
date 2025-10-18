@@ -94,6 +94,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - pinned channels should (optionally?) stay inside their folder and just be at the top / obviously pinned (pin icon?)
 
+- a way to reorder the "VIEWS" sidebar list, especially since it shows tiny icons of the first few when it gets collapsed (so I'd love to choose *which* tiny icons show up since I don't use/even want several of those)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
