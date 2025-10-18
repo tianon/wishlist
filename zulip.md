@@ -108,6 +108,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - a way to "leave" a group DM (or otherwise manage my participation in it)
 
+- a way to "delete" a DM entirely (possibly admin-only?)
+
 (in our testing, we're currently working around the DM limitations by using private 1:1 or 1:n channels instead, which brings quirks of its own like having to come up with cute names that mean something to *all* participants, like "parents" for the 1:1 with my spouse)
 
 ## [Android](https://github.com/zulip/zulip-flutter)
