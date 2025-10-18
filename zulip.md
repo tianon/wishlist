@@ -47,7 +47,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - when uploading for the organization image or personal avatar, pan/zoom should be offered to cut it appropriately (for the organization image, it just chopped my image for me, cut off the animation from the GIF, and none of that in a very flattering way)
 
 - for some channels, it would be nice to *always* show the topic list in the sidebar, not just when the channel is selected (to reduce the time needed to jump in and start communicating, especially with frequent context switches)
-  - maybe a way to pin _topics_ too, not just channels?
+  - maybe a way to pin _topics_ too, not just channels?  and then only show the pinned topics persistently?
 
 - "Include content of direct messages in desktop notifications" should either _also_ apply to private/limited channels, or there should be a separate (perhaps per-channel?) setting for it, because they're similarly private/privileged comms
 
