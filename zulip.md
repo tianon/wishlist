@@ -92,11 +92,15 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - "Default user settings" should allow configuring custom per-channel defaults too (especially for "everyone joins this channel" channels)
 
+- pinned channels should (optionally?) stay inside their folder and just be at the top / obviously pinned (pin icon?)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
 
 - moving messages to/from DMs (https://github.com/zulip/zulip/issues/20501)
+
+- the ability to pin DMs too, especially "note to self" self-DMs
 
 (in our testing, we're currently working around the DM limitations by using private 1:1 or 1:n channels instead, which brings quirks of its own like having to come up with cute names that mean something to *all* participants, like "parents" for the 1:1 with my spouse)
 
