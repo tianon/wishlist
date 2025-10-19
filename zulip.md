@@ -78,7 +78,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - alt text for images (`![alt text](image URL)`, in most markdown syntax)
 
-- images in a topic zoom larger with a carousel of *all images* at the bottom - this is great, *except* when some of those images appear inside spoiler tags and should probably be "spoiler blocked" inside the carousel too 😅
+- bug: images in a topic zoom larger with a carousel of *all images* at the bottom - this is great, *except* when some of those images appear inside spoiler tags and should probably be "spoiler blocked" inside the carousel too 😅
 
 - when I click on a topic in the sidebar and then start typing, it should either already have focused the messagebox or immediately focus the messagebox (ie, it should only take one click to get into a topic and start typing a message)
 
@@ -97,6 +97,9 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - pinned channels should (optionally?) stay inside their folder and just be at the top / obviously pinned (pin icon?)
 
 - a way to reorder the "VIEWS" sidebar list, especially since it shows tiny icons of the first few when it gets collapsed (so I'd love to choose *which* tiny icons show up since I don't use/even want several of those)
+
+- bug: if "Organization description" includes emoji, they show up in plain text (`:eyes:` instead of 👀) on the login page
+  - ideally this would support full markdown with a better edit box than just a textarea and perhaps even the organization's custom emoji
 
 ## DMs
 
