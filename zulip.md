@@ -55,6 +55,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - easier ways to run regular backups, especially from Zulip Cloud
   - ~~for now, I've set up a bot to regularly run (and download) exports from Jenkins~~
   - welp, scratch that, now getting "Export failed: Exceeded rate limit." (but with a 400 status code, not 429) -- I can't find any documented limits but it must be five exports? (that's how many I have now)
+  - no documentation, but I found it in the code: https://github.com/zulip/zulip/blob/5ee9ae7eab3e9d8e87c04842c94d6255540ce2c5/zerver/views/realm_export.py#L44-L62 (maximum 5 exports in a 7 day rolling window, and still counts "deleted" exports, which is why deleting some didn't let me complete a new one)
 
 - better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications / having a whole new "full" view)
   - relatedly, "settings" being so modal is irritating when I'm getting messages while changing settings and want to read them but not lose what I'm working on
