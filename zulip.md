@@ -108,9 +108,13 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - dark mode for the login page
 - dark mode for the API documentation
 
+- "forward this message" - like quoting, but across channels/topics
+  - the way Slack handles this is really clean - it shows a warning if the message you're forwarding is private, and then it only shows a link / the source of the forwarded message if the recipient has access to it also
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
+  - would be a great way to organize "notes to self" inside self-DMs 👀
 
 - moving messages to/from DMs (https://github.com/zulip/zulip/issues/20501)
 
