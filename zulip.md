@@ -56,6 +56,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - ~~for now, I've set up a bot to regularly run (and download) exports from Jenkins~~
   - welp, scratch that, now getting "Export failed: Exceeded rate limit." (but with a 400 status code, not 429) -- I can't find any documented limits but it must be five exports? (that's how many I have now)
   - no documentation, but I found it in the code: https://github.com/zulip/zulip/blob/5ee9ae7eab3e9d8e87c04842c94d6255540ce2c5/zerver/views/realm_export.py#L44-L62 (maximum 5 exports in a 7 day rolling window, and still counts "deleted" exports, which is why deleting some didn't let me complete a new one)
+  - looking further down in that code, it's clear that if we ever reach 250,000 messages *or* 4 of us completely max out our 5GiB then we'll start getting failures we can't overcome -- I guess it'd be nice to have some way to control that, like a way to do an incremental backup?  maybe some way to easily recombine yesterday's and today's into a "complete" backup?
 
 - better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications / having a whole new "full" view)
   - relatedly, "settings" being so modal is irritating when I'm getting messages while changing settings and want to read them but not lose what I'm working on
