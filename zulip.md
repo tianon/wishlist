@@ -101,6 +101,9 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - bug: if "Organization description" includes emoji, they show up in plain text (`:eyes:` instead of 👀) on the login page
   - ideally this would support full markdown with a better edit box than just a textarea and perhaps even the organization's custom emoji
 
+- dark mode for the login page
+- dark mode for the API documentation
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
