@@ -144,6 +144,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - it takes no less than *six* clicks to get into a specific topic to start chatting (click on the Zulip app, click on the channels icon, click on the channel, click on the topic list, click on the topic, click on the message box), meanwhile *all* the channel topics flash on my screen for a minute, some of which might be more sensitive than others (shoulder surfers)
   - most chat apps on Android support long-clicking the application icon to "deep link" directly to into a recent conversation, and even dragging that out into a separate shortcut for a persistent conversation -- this would be really neat for "pinning" common topics to my home screen for instant access
   - (as above) a way to default some or all channels to dropping straight into "general chat" (or maybe a customizable "default topic" per channel) when they're selected
+  - hold-clicking on a channel to go into the topic list instead of straight into the full channel feed (avoiding shoulder surfing) brings up a menu, but if there are unread messages it has a "mark all as read" option that's *dangerously* close to the "topic list" option 😬
 
 - per-conversation customizable notifications
   - > Does it have the option of different ring tones for different channels?
