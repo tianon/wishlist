@@ -26,6 +26,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - frequently used reaction emoji or customizable "popular emoji" (https://github.com/zulip/zulip/issues/21841)
 
 - reaction notifications (https://github.com/zulip/zulip/issues/27327)
+  - implementation in https://github.com/zulip/zulip/pull/34962, but excludes mobile (grayed out in the settings screenshot) 😭 -- hopefully that's just because mobile lives in a separate castle and it "just" needs to be implemented over there too (mobile doesn't even have the "reactions" view yet though 😭)
 
 - poll response notifications
 
