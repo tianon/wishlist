@@ -127,6 +127,9 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - alternatively, a way for a user to easily and quickly reset their settings back to the "org defaults" or actively stay set on the org defaults (so the administrator can change the defaults and opted-in users will automatically follow)
 - relatedly, a way to see where the org defaults differ from zulip defaults *and* where personal settings differ from the org defaults
 
+- a way to (temporarily) hide my own reactions from the "reactions" view
+  - especially self-reactions in self-DMs (which I use to track whether I've moved those notes somewhere more useful/persistent)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
