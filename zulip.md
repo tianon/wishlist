@@ -62,6 +62,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - better multi-window support (opening a conversation/topic/channel in a new tab/window without multiplying notifications / having a whole new "full" view)
   - relatedly, "settings" being so modal is irritating when I'm getting messages while changing settings and want to read them but not lose what I'm working on
+  - a common occurrence for me is reading one thread (especially my note-to-self DMs) and needing to pull up another thread to reply to something without losing my spot and better multi-window support would make that a lot more ergonomic
 
 - "Drafts are not synced to other devices and browsers." is really sad and they *should* be sync'd, especially to/from mobile (start typing a comment, want to preview it or type it on a bigger device, etc)
   - > Doh lost my message by switching screens ... I somehow got back to this screen and there was my message partially typed
@@ -111,6 +112,21 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - "forward this message" - like quoting, but across channels/topics
   - the way Slack handles this is really clean - it shows a warning if the message you're forwarding is private, and then it only shows a link / the source of the forwarded message if the recipient has access to it also
 
+- the "reactions" view/list should include not only messages I sent, but messages that mention me (or my notification words)
+
+- easier/more reliable preview of link "unfurling" / expanding
+  - maybe a way to force it to try again if it fails to find an unfurl?
+- a way to avoid the unfurl behavior completely for a single message
+  - additionally, a way to retroactively remove the unfurl from a prior message
+
+- recognize URLs to this instance (https://xxx.zulipchat.com/#foo/bar) and display them in the cuter way (`#foo > bar`)
+
+- a way for administrators to change settings on behalf of users
+  - for example, their notification settings
+  - perhaps opt-in from the users like the export privacy setting?
+- alternatively, a way for a user to easily and quickly reset their settings back to the "org defaults" or actively stay set on the org defaults (so the administrator can change the defaults and opted-in users will automatically follow)
+- relatedly, a way to see where the org defaults differ from zulip defaults *and* where personal settings differ from the org defaults
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
@@ -134,6 +150,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - something that looks more like the "left sidebar" of the desktop UI -- that sidebar could literally be the app landing page
   - the desktop emoji picker for reactions; mobile has a hyper long list that's hard to browse
     - > Reaction emoji options to be more grid-like like in the message box because I don't know what they are called or what keywords to search for so my options are limited since it doesn't endlessly scroll either
+    - it also needs to ignore whitespace (when I swipe something on my keyboard, it often adds a space, which then doesn't match the emoji I'm searching for)
   - moving messages (https://github.com/zulip/zulip-flutter/issues/1438, https://github.com/zulip/zulip-flutter/issues/530)
   - easier editing/creating topics (like from the topic list)
     - creating topics: https://github.com/zulip/zulip-flutter/issues/1385
@@ -176,6 +193,10 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - when clicking a link to a message, especially from one of the auto-generated quoted blocks, the message being linked to should be highlighted somehow (like how it gets the focus on the website)
 
+- some way to disable or force confirmation for the bulk "Mark as Read" buttons that show up everywhere
+  - especially when they're near places I *need* to click, like the bottom toolbar or in menus
+  - (seriously, why so aggressive with "mark all as read" ??? it's an extremely destructive operation that can be very hard to "undo")
+
 ## Dockerization
 
 Before I gave up and decided to use Zulip Cloud, I tried very hard to run Zulip locally using Docker containers (something I happen to know a thing or two about), and boy howdy this application is **designed** to run inside a hand-maintained virtual machine.  Given the age of the software, I can't really blame them for it, but it sure made running my own instance a pain because the upstream-published image just mimics a VM and I'm "weird" about my containers so that's DOA for me.  I did manage to get something running in my own containers, but every single inch of progress was an uphill battle.  For comparison, most competing solutions (those that are open source, that is) I was able to make my own container images from source successfully in a day or two's work (because they're designed to be separate from the database, etc from the start).
@@ -202,3 +223,20 @@ With all that being said, I'm clearly still using the product because as I noted
   - employee/IT access policy?
 
 (ideally I'd really self-host which would make both of these moot, but that's also why this section is nested under Dockerization -- self-hosting also has rough implications for the household-acceptance-factor because it becomes my problem to provide remote access to it and secure it appropriately, but that's tenable)
+
+## Bot Ideas
+
+- "Reactions": to work around the lack of reaction notifications, a bot that could (for public channels or private channels it gets invited to) notify message senders of reactions to their messages via private DM
+  - would need some amount of debounce so it doesn't immediately send a message and a separate message for every single reaction
+  - would also need to decide what to do about removed reactions  
+    (with debounce, maybe that doesn't matter as much since quick removals wouldn't be notified anyhow)
+
+- "ADS-B": what airplane is currently flying over our house (within some small geofence/distance)
+  - since I run `readsb` and scrape the data myself, this is "just" reading `aircraft.json` and doing the geo math then piping that into Zulip's API to a specific channel/topic via a Bot token
+  - the complicated bit is making sure it only sends the message once per event (maybe it queries the target topic's recent messages?)
+
+- "Unread": to work around the lack of visible unread status, could use emoji reactions on messages to display whether messages have been read by everyone in the channel
+  - this probably needs to "settle" in such a way that the end-state is no reactions, so it's more of a "someone hasn't read this message" than "this message has been read" status
+  - then the state reconcile when there are event steam glitches is easier too; it can search for messages it has reacted to, check their "read receipts", and remove its reaction
+  - needs to somehow account for people who've disabled read receipts *and* people muting topics (because they're basically "never" going to read the messages and the reaction needs to go away eventually)
+  - ... which might actually be the deal-breaker with this idea, because whether someone disabled read receipts *or* muted a topic is probably considered "private" data and something we can't query (maybe administrator privileges?)
