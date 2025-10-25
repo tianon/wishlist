@@ -130,6 +130,9 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - a way to (temporarily) hide my own reactions from the "reactions" view
   - especially self-reactions in self-DMs (which I use to track whether I've moved those notes somewhere more useful/persistent)
 
+- bug: reminders are a DM from the Notification Bot (sure, that's fine), but the text is `You requested a reminder for #channel>@NNNNN` with an inscrutable number instead of a topic name; not sure what that's about and why it isn't a real `#**channel>topic**` reference 😅
+  - I'm also not sure where to see/manage reminders once they're set?  maybe that doesn't exist?
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
