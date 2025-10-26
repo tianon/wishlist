@@ -135,6 +135,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - "moved messages" notices should be small (not just special bot messages), and then they'd be generally a lot less disruptive to allow to post
 - similarly, renaming a topic should create a small/unobtrusive "event" message inside the topic at the point of the rename
+  - this would be similar to how a lot of IRC clients show something like "channel topic changed from 'foo' to 'bar'"
 
 ## DMs
 
