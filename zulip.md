@@ -133,6 +133,9 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - bug: reminders are a DM from the Notification Bot (sure, that's fine), but the text is `You requested a reminder for #channel>@NNNNN` with an inscrutable number instead of a topic name; not sure what that's about and why it isn't a real `#**channel>topic**` reference 😅
   - I'm also not sure where to see/manage reminders once they're set?  maybe that doesn't exist?
 
+- "moved messages" notices should be small (not just special bot messages), and then they'd be generally a lot less disruptive to allow to post
+- similarly, renaming a topic should create a small/unobtrusive "event" message inside the topic at the point of the rename
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
