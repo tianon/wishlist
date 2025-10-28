@@ -244,6 +244,7 @@ With all that being said, I'm clearly still using the product because as I noted
 - "ADS-B": what airplane is currently flying over our house (within some small geofence/distance)
   - since I run `readsb` and scrape the data myself, this is "just" reading `aircraft.json` and doing the geo math then piping that into Zulip's API to a specific channel/topic via a Bot token
   - the complicated bit is making sure it only sends the message once per event (maybe it queries the target topic's recent messages?)
+  - if it queries for the most recent message, then when there _is_ a recent one, it can update/edit instead of posting anew! (so changing metadata like speed/height, etc can update while it flies over)
 
 - "Unread": to work around the lack of visible unread status, could use emoji reactions on messages to display whether messages have been read by everyone in the channel
   - this probably needs to "settle" in such a way that the end-state is no reactions, so it's more of a "someone hasn't read this message" than "this message has been read" status
