@@ -141,6 +141,10 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - bot API keys should probably be hidden or obscured by default, and should probably include confirmation on the regenerate action (because it's otherwise really disruptive)
 
+- search is "stiff" (I'm not sure exactly how else to describe it); the "narrow" options are all very strict
+  - for example, searching for text that's in part of a URL doesn't seem to match
+  - I don't think there's a way to search for messages in any topic that contains certain words (ie, searching by words in a topic title, not by words in the message -- `topic:` is strictly exact match)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
