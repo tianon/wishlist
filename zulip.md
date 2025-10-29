@@ -137,6 +137,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - similarly, renaming a topic should create a small/unobtrusive "event" message inside the topic at the point of the rename
   - this would be similar to how a lot of IRC clients show something like "channel topic changed from 'foo' to 'bar'"
 
+- when adding a custom emoji, the "name" should default to the filename (possibly pre-sanitized of invalid characters)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
@@ -174,6 +176,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - the same LaTeX rendering engine the web UI uses (things like `\frac{a}{b}` works great on web but not on mobile and unless you know that, you wouldn't know your audience is seeing raw LaTeX instead of a cute formula)
   - support for `/me` 😔
   - profile editing, especially the avatar (you know, on my phone, where my photos of myself likely are 😂)
+  - edit history
 
 - double-tap for 👍 (https://github.com/zulip/zulip-flutter/issues/969), maybe even customizable? (double tap for :heart:, :ack:, etc - could be different per channel but that makes the experience less predictable)
 
