@@ -144,6 +144,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - search is "stiff" (I'm not sure exactly how else to describe it); the "narrow" options are all very strict
   - for example, searching for text that's in part of a URL doesn't seem to match
   - I don't think there's a way to search for messages in any topic that contains certain words (ie, searching by words in a topic title, not by words in the message -- `topic:` is strictly exact match)
+  - oof, and we can't search by a date range? 😬
 
 ## DMs
 
