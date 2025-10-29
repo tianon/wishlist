@@ -146,6 +146,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - I don't think there's a way to search for messages in any topic that contains certain words (ie, searching by words in a topic title, not by words in the message -- `topic:` is strictly exact match)
   - oof, and we can't search by a date range? 😬
 
+- I see the API knows which Zulip client sent a given message; it'd be neat to optionally expose that in the UI somehow/somewhere
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
