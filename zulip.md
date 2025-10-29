@@ -139,6 +139,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - when adding a custom emoji, the "name" should default to the filename (possibly pre-sanitized of invalid characters)
 
+- bot API keys should probably be hidden or obscured by default, and should probably include confirmation on the regenerate action (because it's otherwise really disruptive)
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
