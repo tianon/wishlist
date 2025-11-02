@@ -47,6 +47,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - if an emoji has multiple names, show them all on hover
 - the ability to update/replace a custom emoji directly (esp. for adding a higher quality copy, for example, or for later when we can upload bigger than 64x64 😇)
   - > Failed: A custom emoji with this name already exists.
+- a way to change the name of an emoji (especially if we get multiple names for a single custom emoji)
 
 - more padding on settings pages when the website is viewed on mobile (things get cut off for me - I'm usually loading the website on mobile because of the mobile app missing so many features)
 
