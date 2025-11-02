@@ -45,6 +45,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - I guess this also implies "custom emoji with a native size bigger than 64x64"
 - showing a bigger version of every emoji on hover would be nice, even if it's only slightly bigger
 - if an emoji has multiple names, show them all on hover
+- the ability to update/replace a custom emoji directly (esp. for adding a higher quality copy, for example, or for later when we can upload bigger than 64x64 😇)
+  - > Failed: A custom emoji with this name already exists.
 
 - more padding on settings pages when the website is viewed on mobile (things get cut off for me - I'm usually loading the website on mobile because of the mobile app missing so many features)
 
