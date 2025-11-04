@@ -155,6 +155,9 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - I see the API knows which Zulip client sent a given message; it'd be neat to optionally expose that in the UI somehow/somewhere
 
+- for APIs like "Update user group members", it would be great to have a parameter to explicitly set the full list of group members (not just add and remove)
+- the ability to specify usernames or emails in "group membership" APIs
+
 ## DMs
 
 - topics in DMs (https://github.com/zulip/zulip/issues/1555)
