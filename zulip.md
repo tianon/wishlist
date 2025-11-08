@@ -125,7 +125,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - a way to avoid the unfurl behavior completely for a single message
   - additionally, a way to retroactively remove the unfurl from a prior message
 
-- recognize URLs to this instance (https://xxx.zulipchat.com/#foo/bar) and display them in the cuter way (`#foo > bar`)
+- recognize URLs to this instance (https://xxx.zulipchat.com/#foo/bar) and display them in the cuter way (`<link to message from @_**person** in #**foo>bar**>` for example)
+- relatedly, intelligent "unfurling" for links to other content I have access to; if I see a link to a message, (optionally?) show a preview of it if I can access the original, maybe like the expandable spoilers?
 
 - a way for administrators to change settings on behalf of users
   - for example, their notification settings
@@ -144,6 +145,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - this would be similar to how a lot of IRC clients show something like "channel topic changed from 'foo' to 'bar'"
 
 - when adding a custom emoji, the "name" should default to the filename (possibly pre-sanitized of invalid characters)
+- relatedly, the "name" field should warn about invalid characters _before_ we've clicked save (simple built-in browser field validation, perhaps?)
 
 - bot API keys should probably be hidden or obscured by default, and should probably include confirmation on the regenerate action (because it's otherwise really disruptive)
 
@@ -157,6 +159,10 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 
 - for APIs like "Update user group members", it would be great to have a parameter to explicitly set the full list of group members (not just add and remove)
 - the ability to specify usernames or emails in "group membership" APIs
+
+- optional long-form "descriptions" for topics, so that long-running ones can be more approachable to new participants
+  - if this supported full markdown, it would also be a handy place to shove things like persistent links for a topic, such as issue tracker links (making them more discoverable for topic participants)
+  - this would get a little complicated if merging topics / topics go away, since that description would need to go *somewhere* (or stick around even if the topic becomes empty), so maybe only channel admins can create/edit descriptions?  and get warnings if they're going to perform an action that would make a non-empty description go away like moving all the messages in the topic elsewhere?
 
 ## DMs
 
@@ -263,7 +269,7 @@ With all that being said, I'm clearly still using the product because as I noted
   - would also need to decide what to do about removed reactions  
     (with debounce, maybe that doesn't matter as much since quick removals wouldn't be notified anyhow)
 
-- "ADS-B": what airplane is currently flying over our house (within some small geofence/distance)
+- ✅ https://github.com/tianon/zulip-bots/tree/main/adsb "ADS-B": what airplane is currently flying over our house (within some small geofence/distance)
   - since I run `readsb` and scrape the data myself, this is "just" reading `aircraft.json` and doing the geo math then piping that into Zulip's API to a specific channel/topic via a Bot token
   - the complicated bit is making sure it only sends the message once per event (maybe it queries the target topic's recent messages?)
   - if it queries for the most recent message, then when there _is_ a recent one, it can update/edit instead of posting anew! (so changing metadata like speed/height, etc can update while it flies over)
