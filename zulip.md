@@ -280,4 +280,4 @@ With all that being said, I'm clearly still using the product because as I noted
   - needs to somehow account for people who've disabled read receipts *and* people muting topics (because they're basically "never" going to read the messages and the reaction needs to go away eventually)
   - ... which might actually be the deal-breaker with this idea, because whether someone disabled read receipts *or* muted a topic is probably considered "private" data and something we can't query (maybe administrator privileges?)
 
-- a dice-rolling bot (built-in command? `/roll 2d6 1d8`)
+- a dice-rolling bot (built-in command? `/roll 2d6 1d8`; maybe `/roll 1d20 + 3` for modifiers?)
