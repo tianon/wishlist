@@ -36,6 +36,7 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
   - similarly, it would be nice to be able to tweak this setting when typing polls and todo lists to prevent premature sending (and because there, pressing "Enter" is literally how you add new items so it makes sense that sending should be an explicit separate action, not an "oops, I forgot Shift this time, guess it's done")
 
 - better markdown support (for example, \_underlines\_ are supposed to be _italic_)
+  - https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis
 
 - forcing certain user settings across the org, such as the emoji theme (https://github.com/zulip/zulip/issues/18150)
 
