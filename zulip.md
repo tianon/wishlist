@@ -43,6 +43,8 @@ This list focuses mostly on the bad/downsides, because that's who I am (sorry!) 
 - when moving messages, we can either move "just this message" or "this and all following" but it'd be cleaner if we could have a third option to multi-select a few messages to move at once, especially if several conversations are happening at the same time (like in "general chat")
 
 - bigger emoji when they're solo (https://github.com/zulip/zulip/issues/15390)
+  - https://github.com/zulip/zulip/issues/15390
+  - https://github.com/zulip/zulip/commit/15f87a7b8aae47cbff550dbcd3910f0df42c8e30 (will be in 12.0)
 - I guess this also implies "custom emoji with a native size bigger than 64x64"
 - showing a bigger version of every emoji on hover would be nice, even if it's only slightly bigger
 - if an emoji has multiple names, show them all on hover
