@@ -34,6 +34,7 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - optional PIN (or an optional time-based lock instead of just "it closed, lock it up")
   - typing a PIN every time I need to write a note is a PITA that makes me not want to use the device at all
+  - perhaps adding a way to write notes directly on the lock screen would help?  and they get dumped into a special document or something?  (obviously write-only, like how most phones will let you take pictures without unlocking but you can only view what you've just taken)
 
 - if I've scribbled something with the pen and later select it, I should be able to change at least the color (not just size/position)
   - it would be nice to *also* be able to change the tool type or stroke width (pencil to pen to marker to thick marker, etc)
