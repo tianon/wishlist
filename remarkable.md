@@ -59,6 +59,7 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
   - I have a PDF that starts with a "study plan" of references I need to go back to all the time and it's a big pain to flop back and forth between the page I'm currently reading and that study plan
 
 - applications, especially for content that's accessed in more dynamic ways than a PDF tends to be (reference manuals, church hymnals, etc)
+  - ironically, if it had this functionality, my workplace wouldn't have been willing to buy it for me, so this is a double-edged sword, but looking at this from a pure consumer perspective I'm having trouble justifying the *really* high price point without this
 
 - more visual feedback during gestures (there's a delay between every gesture and it doing literally anything and every single time I wonder if I've even done the gesture correctly)
 
