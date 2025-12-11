@@ -74,3 +74,5 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 - more vibrant colors?  there's only 6 *actual* colors above black/gray(/white), and they're all so muted that it feels like there's only 3
 
 - a better *carrying* case (this thing is massive and I need something like a full on purse just to carry it around with me)
+
+- backlight on *all* the Type Folio keys, not just the letters (it looks really cute as-is, until I'm trying to find "Enter" in the dark without putting my hands on the home row first)
