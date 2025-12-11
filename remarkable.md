@@ -74,6 +74,8 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - tell me when the version I have installed was released and when I installed it
 
+- per-document option to show two pages at a time in landscape view (the screen is enormous)
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
