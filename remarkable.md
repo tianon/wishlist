@@ -63,6 +63,10 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - more visual feedback during gestures (there's a delay between every gesture and it doing literally anything and every single time I wonder if I've even done the gesture correctly)
 
+- the "symbols" keyboard is nice, but a little hard to discover (Ctrl + Alt + Space in "PC" mode or Opt + Alt + Space in "Mac" mode)
+- more symbols in that symbol keyboard
+- emoji?  it's 2025 😭
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
