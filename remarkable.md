@@ -60,6 +60,9 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - applications, especially for content that's accessed in more dynamic ways than a PDF tends to be (reference manuals, church hymnals, etc)
   - ironically, if it had this functionality, my workplace wouldn't have been willing to buy it for me, so this is a double-edged sword, but looking at this from a pure consumer perspective I'm having trouble justifying the *really* high price point without this
+  - RSS / Atom feeds reader
+  - let me read my morning news, email, etc
+  - the automation potential of this device is *there* if it weren't so (seemingly intentionally?) gimped
 
 - more visual feedback during gestures (there's a delay between every gesture and it doing literally anything and every single time I wonder if I've even done the gesture correctly)
 
