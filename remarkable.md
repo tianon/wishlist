@@ -21,6 +21,7 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
   - (especially if it could be a button for the "quick settings" that I cannot seem to reliably engage)
 - a direct button into "full" settings from the quick settings
 - a "quick settings" toggle for the USB web interface
+  - more functionality from the USB web interface (renaming / reorganizing documents, especially on a screen that doesn't suffer from the e-ink update latency; previewing documents; etc)
 
 - the ability to use my "Type Folio" case keyboard to type text on PDFs
   - without this, what's the point of even *having* the keyboard case?
