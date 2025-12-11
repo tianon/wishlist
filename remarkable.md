@@ -48,7 +48,10 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 - "vi-compatible" mode for editing text (especially "plain text" suggested above)
 
 - snap to grid when using a grid template
+
 - more tools for drawing shapes, especially straight lines
+  - the "draw the best you can then hold your pen" is a cute party trick, but it would be way nicer to have the line draw straight to begin with instead
+
 - some way to swap colors faster (configurable toolbar? optional second toolbar? lots of dead/unused space on this enormous screen)
 
 ## hardware wishlist
