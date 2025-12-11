@@ -72,6 +72,8 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 - more symbols in that symbol keyboard
 - emoji?  it's 2025 😭
 
+- tell me when the version I have installed was released and when I installed it
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
