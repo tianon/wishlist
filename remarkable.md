@@ -58,8 +58,14 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 - simpler bookmarks / ways to flip back and forth between pages
   - I have a PDF that starts with a "study plan" of references I need to go back to all the time and it's a big pain to flop back and forth between the page I'm currently reading and that study plan
 
+- applications, especially for content that's accessed in more dynamic ways than a PDF tends to be (reference manuals, church hymnals, etc)
+
+- more visual feedback during gestures (there's a delay between every gesture and it doing literally anything and every single time I wonder if I've even done the gesture correctly)
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
 
 - more vibrant colors?  there's only 6 *actual* colors above black/gray(/white), and they're all so muted that it feels like there's only 3
+
+- a better *carrying* case (this thing is massive and I need something like a full on purse just to carry it around with me)
