@@ -78,6 +78,10 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - support for multiple users (each with their own files or with shared/collaborative files)
 
+- a way to switch pages with the stylus/pen instead of my finger (explicit buttons would be nice)
+
+- oh my gosh, an optional spell checker (what??)
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
