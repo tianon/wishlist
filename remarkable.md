@@ -82,6 +82,8 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - oh my gosh, an optional spell checker (what??)
 
+- when in "edit text" mode, let me move the cursor with the pen (way more accurate / precise) or select text
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
