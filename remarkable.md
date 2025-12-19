@@ -84,6 +84,8 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - when in "edit text" mode, let me move the cursor with the pen (way more accurate / precise) or select text
 
+- direct network printer support for when you need actual paper (or the notes are written and it's time to hand them off to someone else)
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
