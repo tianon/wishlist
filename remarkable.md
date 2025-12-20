@@ -86,6 +86,8 @@ Instead of wallowing in buyer's remorse, I'm typing out my thoughts here.
 
 - direct network printer support for when you need actual paper (or the notes are written and it's time to hand them off to someone else)
 
+- ability to select and "group" strokes into a single item for easier reorganization of a document after writing it (otherwise selecting and dragging is super challenging)
+
 ## hardware wishlist
 
 - fingerprint scanner (see also note above about optional PIN)
